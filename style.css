@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'ZT Floogn';
+    src: url(/Timeless-1/ZTFloogn-ExtraBold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Barlow Medium';
+    src: url(/Timeless-1/BarlowSemiCondensed-Medium.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Barlow Bold';
+    src: url(/Timeless-1/BarlowSemiCondensed-Bold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Barlow Italic';
+    src: url(/Timeless-1/BarlowSemiCondensed-Italic.ttf) format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.work-in-progress {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow Medium';
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+
+body {
+    font-family: 'Barlow Medium';
+}
+
+.topnav {
+    background-color: #FFB741;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.toplink a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.heading {
+    position: relative;
+    background-image: url("./Gold\ Watch.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+    z-index: 1;
+}
+
+.heading::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* nero al 50% */
+    z-index: 0;
+}
+
+.heading * {
+    position: relative;
+    z-index: 1; /* fa sì che il testo stia sopra l'overlay */
+}
+
+
+.slogan {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Barlow Italic';
+}
+
+.SMA {
+    font-size: 3rem;
+    margin: 10px 0;
+    color: #FFB741;
+}
+
+.description {
+    font-size: 1.2rem;
+    max-width: 800px;
+}
+
+.cta-button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    border: 2px solid #FFB741;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Barlow Medium';
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* leggero effetto al passaggio */
+}
+
