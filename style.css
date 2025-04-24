@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'ZT Floogn';
-    src: url(/TimelessWebStudio/ZTFloogn-ExtraBold.ttf) format(truetype);
+    src: url(/site/ZTFloogn-ExtraBold.ttf) format(truetype);
 }
 
 @font-face {
     font-family: 'Barlow Medium';
-    src: url(/TimelessWebStudio/BarlowSemiCondensed-Medium.ttf) format(truetype);
+    src: url(/site/BarlowSemiCondensed-Medium.ttf) format(truetype);
 }
 
 @font-face {
     font-family: 'Barlow Bold';
-    src: url(/TimelessWebStudio/BarlowSemiCondensed-Bold.ttf) format(truetype);
+    src: url(/site/BarlowSemiCondensed-Bold.ttf) format(truetype);
 }
 
 @font-face {
     font-family: 'Barlow Italic';
-    src: url(/TimelessWebStudio/BarlowSemiCondensed-Italic.ttf) format(truetype);
+    src: url(/site/BarlowSemiCondensed-Italic.ttf) format(truetype);
 }
 
 * {
